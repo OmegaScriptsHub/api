@@ -1,5 +1,5 @@
 {
   "rewrites": [
-    { "source": "/(.*)", "destination": "./api/solve.py" }
+    { "source": "/(.*)", "destination": "./api/solve" }
   ]
 }
