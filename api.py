@@ -28,7 +28,7 @@ def check_hotmail_inbox(email: str, password: str):
 def home():
     return {"message": "Hotmail Inbox Checker API"}
 
-@app.post("/check")
+@app.post("/solve")
 def check(email: str, password: str):
     try:
         result = check_hotmail_inbox(email, password)
