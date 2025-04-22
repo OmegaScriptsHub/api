@@ -2,7 +2,3 @@ requests
 flask
 aiohttp
 pycryptodomex
-random2
-base64
-os
-json
