@@ -7,8 +7,6 @@ from requests.adapters import HTTPAdapter
 from urllib3.util.retry import Retry
 import concurrent.futures
 import threading
-from steam_checker import SteamChecker
-from ubisoft_checker import UbisoftChecker
 from spotify_checker import SpotifyChecker
 from amazon_checker import check_amazon_email
 from concurrent.futures import ThreadPoolExecutor
